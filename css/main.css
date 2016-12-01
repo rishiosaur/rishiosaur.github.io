@@ -3,7 +3,7 @@ body { margin: 60px auto; width: 70%;background-color: #018CE6}
 a {text-decoration: none;color: black; font-weight: bold;}
 a:hover { text-decoration: underline; }
 
-p, ul { font-size: 1.5em; line-height: 1.4em; color: black; }
+p, ul { font-size: 1.5em; line-height: 1.4em; color: black; font-family: 'Georgia', 'Cambria', 'Helvetica', 'Arial', 'Sans-Serif';}
 
 h1, h2, h3, h4 { font-family: 'Roboto', 'Helvetica', 'Arial', 'Sans-Serif'; }
 h1 { font-size: 3em;  }
