@@ -16,6 +16,7 @@ nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
 footer { border-top: 1px solid black; font-size: .8em; }
 
+.post{ background-color: rgba(#00192B, 0.83);}
 /* Blog */
 ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
 ul.posts li { list-style: none; }
