@@ -6,6 +6,6 @@ title: a blog.
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li><span class="meta">{{ post.date | date_to_string }}</span> | <a href="{{ post.url }}" title="{{ post.title }}" class="postlink">{{ post.title }}</a></li>
+	    <li><span class="meta"><strong>{{ post.date | date_to_string }}</strong></span> | <a href="{{ post.url }}" title="{{ post.title }}" class="postlink">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
