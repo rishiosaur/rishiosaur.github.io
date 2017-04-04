@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <title>This is our Feed title</title>
+<link>https://www.rishiosaur.github.io</link>
+<description>A podcast where I say things that I might interest you.</description>
+    <language>en-us</language>
+     <copyright>Rishi Kothari (alias OctoRishi / rishiosaur)</copyright>
+    <lastBuildDate>Thu, 30 Mar 2017 6:13:00 EST</lastBuildDate>
+    <itunes:author>Rishi Kothari</itunes:author>
+    <itunes:summary>The feed from Rishi Kothari</itunes:summary>
+    <itunes:owner>
+        <itunes:name>Rishi Kothari</itunes:name>
+        <itunes:email>rishi2019@wgdavis.ca</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>No</itunes:explicit>
+    <itunes:imagehref="Fill in later"/>
+     <itunes:categorytext="Society & Culture">
+     </itunes:category>
+<item>
+    <title>Episode 1: Who are we?</title>
+<link>http://testing.com/Our_first_item.mp3</link>
+<pubDate>Wed, 13 Aug 2014 15:47:00 GMT</pubDate>
+<description>Humans are right to beleive that we are the smartest animals. But are we really that big? Step into a parallel universe where we can do anything, and go wherever we want, on Mergers and Acquisitions</description>
+    <enclosure url="http://files.idrsolutions.com/Java_PDF_Podcasts/Interview_4_Advice_and_XFA.mp3" length="11779397" type="audio/mpeg"/>
+    <itunes:summary></itunes:summary>
+    <itunes:imagehref="https://rishiosaur.github.io/podcast/logo.jpeg"/>
+</item>
+</channel>
+</rss>
