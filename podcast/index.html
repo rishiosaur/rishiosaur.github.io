@@ -3,5 +3,11 @@ layout: default
 title: Mergers & Acquisitions
 ---
 
-<h1>Mergers & Acquisitions</h1>
+<h1>{{page.title}}</h1>
 <p>This podcast is just like any other: where I say stuff that interest me, and might interest you.</p>
+
+<ul class="posts">
+  {% for posts-podcast in site.posts-podcast %}
+    <li><span class="meta"><strong>{{ posts-podcast.date | date_to_string }}</strong></span> | <a href="{{ posts-podcast.url }}" title="{{ posts-podcast.title }}" class="postlink">{{ posts-podcast.title }}</a></li>
+  {%endfor%}
+</ul>
