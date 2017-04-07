@@ -6,6 +6,6 @@ title: a blog.
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li class="post"><span class="meta"><strong>{{ post.date | date_to_string }}</strong></span>  <a href="{{ post.url }}" title="{{ post.title }}" class="postlink">{{ post.title }}</a> - <span class="meta description">{{ post.description }}</span><br> <span class="meta description">Tags:</span> {% for category in post.categories %} <a class="taglink" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a> {% endfor %}</li><br>
+	    <li class="post"><span class="meta"><strong>{{ post.date | date_to_string }}</strong></span>  <a href="{{ post.url }}" title="{{ post.title }}" class="postlink">{{ post.title }}</a><br> <span class="meta description"> {{ post.description }}</span><br> <span class="meta description">Categories:</span> {% for category in post.categories %} <a class="taglink" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a> {% endfor %}</li><br>
 	  {% endfor %}
 	</ul>
