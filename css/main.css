@@ -15,6 +15,10 @@ img { box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2); }
 .btnlink:hover { background: #333333; }
 .linklink { text-decoration: none;color: whitesmoke; font-weight: bold; transition: all 0.25s ease; }
 .linklink:hover { background-color: #whitesmoke; color: #333333 }
+.taglink { font-size: 1.5em; font-family:'Kollektif', 'Roboto', 'Helvetica', 'Arial', 'Sans-Serif'; text-decoration: none;color: whitesmoke; font-weight: bold; padding: 10px 25px; font-weight: 500; background: transparent; outline: none !important; cursor: pointer; transition: all 0.5s ease; position: relative; display: inline-block; }
+.taglink:hover { background: #d9d9d9; color: #333333; }
+.taglink { font-size: 1em;font-family:'Kollektif', 'Roboto', 'Helvetica', 'Arial', 'Sans-Serif'; text-decoration: none;color: whitesmoke; font-weight: bold; padding: 10px 25px; font-weight: 500; background: transparent; outline: none !important; cursor: pointer; transition: all 0.5s ease; position: relative; display: inline-block; }
+.taglink:hover { background: #d9d9d9; color: #333333; }
 
 /* Text Stylings */
 #borderleft { border-left: 6px solid whitesmoke; padding-left: 12px; }
@@ -37,6 +41,7 @@ footer { background-color: #262626; padding: 10px; float: bottom; box-shadow: 10
 .titlefont { font-family: 'Kollektif','Roboto', 'Helvetica', 'Arial', 'Sans-Serif'; }
 ul.posts { margin: 20px auto 40px; font-size: 1.5em; font-family: 'Kollektif','Roboto', 'Helvetica', 'Arial', 'Sans-Serif'; font-weight: none; }
 ul.posts li { list-style: none; }
+.post { background-color: #262626; padding: 20px; box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);}
 
 /* CV */
 .cv { margin: 0px 0px 60px; }
