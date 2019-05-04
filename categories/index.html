@@ -1,29 +1,32 @@
 ---
-layout: otherpage
+layout: default
 permalink: /categories/
 title: Categories
 ---
 
-
-
-
+<h1>Categories.</h1>
 <div id="archives">
-{% for category in site.categories %}
-  <div class="archive-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
-    <div class="post">
-      <h3 class="category-head">{{ category_name }}</h3>
+  {% for category in site.categories %}
+  {% capture category_name %}{{ category | first }}{% endcapture %}
+  <h1 class="f4 bold center mw6"data-aos="fade-left">{{ category_name }}</h1>
+  <ul class="list pl0 ml0 center mw6 ba b--light-silver br2" data-aos="fade-left">
     <a name="{{ category_name | slugize }}"></a>
     {% for post in site.categories[category_name] %}
-    <article class="archive-item">
-      <h4><a href="{{ site.baseurl }}{{ post.url }}" class="postlink">{{post.title}}</a> - <span class="paddingleft">{{post.date | date_to_string }}</span></h4>
+    <article class="archive-item" data-aos="fade-in">
+      {% if forloop.last == true %}
+      <li class="ph3 pv3"><a href="{{site.baseurl}}{{post.url}}" class="link dim b black" >{{post.title}}</a> -
+        {{post.date|date_to_string}}</li>
+      {% else %}
+      <li class="ph3 pv3 bb b--light-silver"><a href="{{site.baseurl}}{{post.url}}"
+          class="link dim b black">{{post.title}}</a> - {{post.date|date_to_string}}</li>
+      {% endif %}
+
     </article>
     {% endfor %}
-    </div>
 
-  </div>
-{% endfor %}
+  </ul>
+  {% endfor %}
 </div>
+
+
 <br>

@@ -2,10 +2,28 @@
 layout: default
 title: a blog.
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
+<h1>{{ page.title }}</h1>
 
-	  {% for post in site.posts %}
-	    <li class="post"><span class="meta"><strong>{{ post.date | date_to_string }}</strong></span>  <a href="{{ post.url }}" title="{{ post.title }}" class="postlink">{{ post.title }}</a><br> <span class="meta description"> {{ post.description }}</span><br> <span class="meta description">Categories:</span> {% for category in post.categories %} <a class="taglink" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a> {% endfor %}</li><br>
-	  {% endfor %}
-	</ul>
+<section class=" center">
+	{% for post in site.posts %}
+	<article class="bb b--black-10">
+		<a class="db pv4 ph3 ph0-l no-underline black dim" href="{{ post.url }}">
+			<div class="flex flex-column flex-row-ns">
+				{% if post.img %}
+				<div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+					<img src="http://mrmrs.github.io/photos/warehouse.jpg" class="db"
+						alt="Photo of a warehouse with stacked shelves.">
+				</div>
+				{% endif %}
+				<div class="w-100 w-60-ns pl3-ns" data-aos="fade-right">
+					<h1 class="f3 black b mt0 lh-title">{{post.title}}</h1>
+					<p class="f6 f5-l lh-copy">
+						{{post.description}}
+					</p>
+					<p class="f6 lh-copy mv0">{{ post.date | date_to_string }}</p>
+				</div>
+			</div>
+		</a>
+	</article>
+	{% endfor %}
+</section>

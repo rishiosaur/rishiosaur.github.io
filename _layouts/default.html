@@ -1,47 +1,66 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<!-- Renders the YAML front matter into the title of the page -->
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<!-- Navigation -->
-			<nav>
-	    		<ul>
-						<li><a href="/" class="navlink"><strong>rishiosaur.</strong></a></li>
-		        <li><a href="/about" class="navlink">about.</a></li>
-	        	<li><a href="/cv" class="navlink">cv.</a></li>
-	        	<li><a href="/blog" class="navlink">blog.</a></li>
-						<li><a href="/categories" class="navlink">categories.</a></li>
-						<li><a href="/blog/atom.xml" class="navlink">rss.</a></li>
-						<li><a href="/podcast" class="navlink">podcast.</a></li>
+<html class="center " >
 
-	    		</ul>
-			</nav>
-			<!-- Content -->
-			<div class="container">
+<head>
+	<!-- Renders the YAML front matter into the title of the page -->
+	<title>{{ page.title }}</title>
+	<!-- link to main stylesheet -->
+	<!--<link rel="stylesheet" type="text/css" href="/css/main.css">-->
+	<link rel="stylesheet" href="/css/tachyons.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		.full-width {
+			margin-left: calc(-100vw / 2 + 500px / 2);
+			margin-right: calc(-100vw / 2 + 500px / 2);
+		}
 
-			<!-- Angular via Jekyll for content in _posts/ to be rendered by _layouts/post.html -->{{ content }}
+		#footer {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			height: 2.5rem;
+			/* Footer height */
+		}
+		.measure-wide{
+			max-width: 34em; 
+		}
+	</style>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#f6fffe">
+	<meta name="theme-color" content="#ffffff">
+</head>
 
-			</div>
-			<!-- Footer -->
-			<footer>
-	    		<ul>
-							<!-- Main email -->
-	        		<li><a href="mailto:rishiosaur@gmail.com" class="navlink">email.</a></li>
-							<!-- GitHub -->
-	        		<li><a href="https://github.com/rishiosaur" class="navlink">github.</a></li>
-							<!-- Twitter -->
-							<li><a href="http://twitter.com/rishiosaur" class="navlink">twitter.</a></li>
-							<!-- School Email -->
-							<li><a href="mailto:rishi2019@wgdavis.ca" class="navlink">school email.</a></li>
-							<!-- Medium Publication -->
-							<li><a href="https://medium.com/18-over-3" class="navlink">medium.</a></li>
-							<!-- Github Pages -->
-							<li><a href="http://pages.github.com" class="navlink">Proudly Hosted By GitHub Pages.</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<body class="helvetica bg-washed-green">
+	<main class="measure-wide center pt5 ph3 pb3">
+	<!-- Navigation -->
+	<nav class="ph-2 center">
+		<a class="link black hover-blue ba pa2 b f6 f5-ns dib mr3" href="/" title="Home">rishi.</a>
+		<a class="link gray hover-green    f6 f5-ns dib mr3" href="/blog" title="About">blog.</a>
+		<a class="link gray hover-light-purple f6 f5-ns dib mr3" href="/about" title="Store">about.</a>
+		<a class="link gray hover-light-blue f6 f5-ns dib" href="/contact" title="Contact">contact.</a>
+	</nav>
+
+	<!-- Content -->
+	<div class="">
+
+		<!-- Angular via Jekyll for content in _posts/ to be rendered by _layouts/post.html -->{{ content }}
+
+	</div>
+
+	<!-- Footer -->
+	<footer class="pv4 ph3 ph5-m ph6-l mid-gray">
+		<small class="f6 db tc">Made by Rishi Kothari.</small>
+	</footer>
+	</main>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
