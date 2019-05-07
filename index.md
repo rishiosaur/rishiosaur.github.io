@@ -4,12 +4,17 @@ title: Rishi Kothari, Developer
 ---
 
 ## Hey there!
+{: data-aos="zoom-in"}
 I'm Rishi Kothari, a 13 year old developer and student living and working out of Toronto, Canada.
+{: data-aos="fade-left"}
 
 ### A bit about me.
+{: data-aos="zoom-in"}
 There really isn't too much to learn about me. I live with my parents, am studying in the IB Program at Turner Fenton Secondary, and love programming.
+{: data-aos="fade-left"}
 
 I'm open for internships right now, wherever in the world you may be.
+{: data-aos="fade-left"}
 
 {::comment}
 ### Contact?
@@ -24,6 +29,7 @@ If you have any trivial questions, have them answered here!
 I got into programming when I was around 8, and I fell in love with it. Solving problems has always been a **strength** of mine, 
 {:/comment}
 ### Stats
+{: data-aos="fade-in"}
 <article class="nr7-l" data-name="slab-stat-large">
   <div class="cf">
     <dl class="db dib-l w-auto-l lh-title mr6-l" data-aos="fade-in">

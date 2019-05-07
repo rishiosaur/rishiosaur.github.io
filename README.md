@@ -1,3 +1,2 @@
-# rishiosaur.github.io
-This is my portfolio!
-Link: [My Blog](http://rishiosaur.github.io)
+# Portfolio.
+Feel free to use it for yours! I think it's pretty nice.

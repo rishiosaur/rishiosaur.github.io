@@ -8,7 +8,7 @@ title: about me.
       <div class="cover pv5 pv6-m pv7-l" style="background-image:url(/assets/attachments/pic9.jpg);" aos-data="fade-in"></div>
     </div>
     <div class="fl w-50 w-50 w-50-l pr2 pr0-l pl3-l mb3 mb4-l" aos-data="fade-in">
-        <div class="cover pv5 pv6-m pv7-l" style="background:black url(/assets/attachments/pic6.jpg) center;"> </div>
+        <div class="cover pv5 pv6-m pv7-l" style="background:black url(/assets/attachments/pic6.JPG) center;"> </div>
       </div>
     <div class="fl w-100 w-75-l pr2-l pl2-ns mb4 mb0-l mb4 outline" aos-data="fade-in">
       <div class="pa4">
@@ -24,7 +24,7 @@ title: about me.
     </div>
     <div class="cf">
       <div class="fl w-100 w-25-l pl3-l mb3 mb4-l" aos-data="fade-in">
-          <div class="cover pv5 pv6-m pv7-l" style="background:black url(/assets/attachments/pic5.jpg) center;" aos-data="fade-in"> </div>
+          <div class="cover pv5 pv6-m pv7-l" style="background:black url(/assets/attachments/pic5.JPG) center;" aos-data="fade-in"> </div>
       </div>
       <div class="fl w-100 w-25-l pr3-l" aos-data="fade-in">
         <p class="lh-copy measure f6 pt3 pt0-l mt0 mb3 mb4-l center">
@@ -36,10 +36,10 @@ title: about me.
     
       <div class="fl w-100 w-75-l pv0 mv0">
         <div class="fl w-100 w-25-l center mb2 mb4-l" aos-data="fade-in">
-          <div class="cover pv5 pv6-m pv7-l" style="background:black url(/assets/attachments/pic7.jpg) center;"> </div>
+          <div class="cover pv5 pv6-m pv7-l" style="background:black url(/assets/attachments/pic7.JPG) center;"> </div>
         </div>
         <div class="fl w-100 w-50-l pr4 pl2 pl4-l mb2 mb4-l">
-          <div class="cover pv5 pv6-m pv7-l" style="background:black url(/assets/attachments1/pic2.jpg) center; "> </div>
+          <div class="cover pv5 pv6-m pv7-l" style="background:black url(/assets/attachments1/pic2.JPG) center; "> </div>
         </div>
         <div class="fl w-100-ns w-25-l pr3-l" aos-data="fade-in">
         <p class="lh-copy measure f6 pt3 pt0-l mt0 mb3 mb4-l center outline pa4"><br>

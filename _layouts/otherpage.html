@@ -28,7 +28,25 @@
 max-width:initial;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-}</style>
+}
+.border-up {
+      background:
+        linear-gradient(to bottom, var(--theme) 0%,
+        var(--theme) 100%);
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 4px 4px;
+      color: #000;
+      text-decoration: none;
+      transition-timing-function: ease-in-out;
+      transition: background-size .2s;
+      
+    }
+
+    .border-up:hover {
+      background-size: 4px 50px;
+    }
+  </style>
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -49,6 +67,7 @@ max-width:initial;
 
     <div class="tc pb3">
       <a class="link black hover-blue ba pa2 b f6 f5-ns dib mr3" href="/" title="Home">rishi.</a>
+      <a class="link gray hover-light-green pa2 f6 f5-ns dib mr3" href="/projects" title="Home">projects.</a>
       <a class="link gray hover-green    f6 f5-ns dib mr3" href="/blog" title="About">blog.</a>
     </div>
   </footer>

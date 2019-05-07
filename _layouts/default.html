@@ -25,6 +25,12 @@
 		.measure-wide{
 			max-width: 34em; 
 		}
+		.offset {
+  box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+}
+.offset:hover, .offset:focus {
+  box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+}
 	</style>
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -39,7 +45,8 @@
 	<main class="measure-wide center pt5 ph3 pb3">
 	<!-- Navigation -->
 	<nav class="ph-2 center">
-		<a class="link black hover-blue ba pa2 b f6 f5-ns dib mr3" href="/" title="Home">rishi.</a>
+		<a class="link black hover-blue ba pa2 b f6 f5-ns dib mr3 offset" href="/" title="Home">rishi.</a>
+		<a class="link gray hover-light-green pa2 f6 f5-ns dib mr3" href="/projects" title="Home">projects.</a>
 		<a class="link gray hover-green    f6 f5-ns dib mr3" href="/blog" title="About">blog.</a>
 		<a class="link gray hover-light-purple f6 f5-ns dib mr3" href="/about" title="Store">about.</a>
 		<a class="link gray hover-light-blue f6 f5-ns dib" href="/contact" title="Contact">contact.</a>
@@ -47,9 +54,7 @@
 
 	<!-- Content -->
 	<div class="">
-
-		<!-- Angular via Jekyll for content in _posts/ to be rendered by _layouts/post.html -->{{ content }}
-
+		{{ content }}
 	</div>
 
 	<!-- Footer -->
