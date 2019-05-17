@@ -30,7 +30,7 @@ title: about me.
         <p class="lh-copy measure f6 pt3 pt0-l mt0 mb3 mb4-l center">
           <span class="fw6">Programming isn't something that I do for money. It is because it's my passion.</span> Programming, in our world, is a convoluted thing, filled with libraries, frameworks, and all sorts of keyboard trickery. However, at the end of it, there lies a masterful product: one that may change the world, even. <span class="i">That</span> is exactly what appeals to me. The ability to make something revolutionary through something that is incredibly accessible is the greatest thing one can do.<br><br>
 
-          <span class="fw6">Ideas don't come free.</span> They require hard work, with setbacks all along the way. My job isn't necessarily to create 
+          <span class="fw6">Ideas don't come free.</span> They require hard work, with setbacks all along the way. My job isn't necessarily to create ideas; it can also be to help realize dreams. My job is to bear all the grunt work that is required to put an idea into reality, be it large or small.
         </p>
       </div>
     
@@ -43,7 +43,7 @@ title: about me.
         </div>
         <div class="fl w-100-ns w-25-l pr3-l" aos-data="fade-in">
         <p class="lh-copy measure f6 pt3 pt0-l mt0 mb3 mb4-l center outline pa4"><br>
-          <span class="fw6">I am Rishi Kothari.</span> I am a programmer, who creates products of dreams. 
+          <span class="fw6">I am Rishi Kothari.</span> I am a programmer, who creates products out of dreams.
         </p>
       </div>
       </div>

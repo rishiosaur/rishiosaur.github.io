@@ -31,6 +31,34 @@
 .offset:hover, .offset:focus {
   box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
 }
+.border-up {
+      background:
+        linear-gradient(to bottom, var(--theme) 0%,
+        var(--theme) 100%);
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 4px 4px;
+      color: #000;
+      text-decoration: none;
+      transition-timing-function: ease-in-out;
+      transition: background-size .2s;
+      
+    }
+
+    .border-up:hover {
+      background-size: 4px 50px;
+	}
+	.border-down {
+		background:
+        linear-gradient(to bottom, var(--theme) 0%,
+        var(--theme) 100%);
+      background-position: 0 105%;
+      background-repeat: repeat-x;
+      background-size: 4px 4px;
+      text-decoration: none;
+      transition-timing-function: ease-in-out;
+      transition: background-size .2s;;
+	}
 	</style>
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -41,10 +69,10 @@
 	<meta name="theme-color" content="#ffffff">
 </head>
 
-<body class="helvetica bg-washed-green">
+<body class="helvetica">
 	<main class="measure-wide center pt5 ph3 pb3">
 	<!-- Navigation -->
-	<nav class="ph-2 center">
+	<nav class="ph-2 center" >
 		<a class="link black hover-blue ba pa2 b f6 f5-ns dib mr3 offset" href="/" title="Home">rishi.</a>
 		<a class="link gray hover-light-green pa2 f6 f5-ns dib mr3" href="/projects" title="Home">projects.</a>
 		<a class="link gray hover-green    f6 f5-ns dib mr3" href="/blog" title="About">blog.</a>
