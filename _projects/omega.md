@@ -24,7 +24,7 @@ Trading off our privacy for convienience, and pricing.
 
 Virtual Assistants are everywhere these days.
 
-However, they are littered with proprietary software, and cannot be customized to any degree, other than actual developers.
+However, they are littered with proprietary software, and cannot be customized to any degree, other than by actual developers.
 
 ## Omega.
 
