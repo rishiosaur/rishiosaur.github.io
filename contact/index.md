@@ -4,7 +4,7 @@ title: contact.
 ---
 
 # Contact.
-Here, you can find ways to message me. (Don't worry, there aren't any stupid questions.)
+Here, you can find ways to message me.
 
 <article class="">
   <h1 class="f4 bold center mw6">Email</h1>
