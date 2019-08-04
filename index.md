@@ -82,7 +82,7 @@ I got into programming when I was around 8, and I fell in love with it. Solving 
 
 ### Stats
 {: data-aos="fade-in"}
-<article class="nr7-l" data-name="slab-stat-large">
+<article class="nr5-l" data-name="slab-stat-large">
   <div class="cf">
     <dl class="db dib-l w-auto-l lh-title mr6-l" data-aos="fade-up">
       <dd class="f6 fw4 ml0">Programming for</dd>
@@ -102,5 +102,5 @@ I got into programming when I was around 8, and I fell in love with it. Solving 
     </dl></a>
     <dl class="db dib-l w-auto-l lh-title mr6-l" data-aos="zoom-in">
       <dd class="f6 fw4 ml0">Hackathons</dd>
-      <dd class="f2 f-subheadline-l fw6 ml0">4</dd>
+      <dd class="f2 f-subheadline-l fw6 ml0">1</dd>
     </dl>
