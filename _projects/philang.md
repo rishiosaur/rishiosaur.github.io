@@ -6,7 +6,7 @@ theme: '#cacaca'
 description: A mathematical programming language.
 catchphrase: Math + CS
 coming: False
-logo: assets/philogo.png
+logo: /assets/philogo.png
 screenshot: /assets/phiscreen.png
 ---
 
