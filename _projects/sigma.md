@@ -2,7 +2,7 @@
 layout: project
 title: Sigma
 theme: '#cacaca'
-description: Note-taking for TFSS
+description: A Math library.
 coming: True
 logo: assets/sigma-logo.png
 ---

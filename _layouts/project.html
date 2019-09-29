@@ -55,27 +55,38 @@
       <p class="f6">
         {{page.catchphrase}}
       </p>
-      <h1 class="f2 f1-l lh-title mt0 mb4 mb5-ns dib"><a href="https://github.com/rishiosaur/{{page.repo}}"
+      <h1 class="f2 f1-l lh-title mt0 mb4  dib">
+        {% if page.repoother %}
+        <a href="https://github.com/{{page.repoother}}"
           style="--theme:{{page.theme}}" class="hover-{{page.color }} no-underline black border-up">
           {{page.title}}</a>
+        {% else %}
+        <a href="https://github.com/rishiosaur/{{page.repo}}"
+        style="--theme:{{page.theme}}" class="hover-{{page.color }} no-underline black border-up">
+        {{page.title}}</a>
+        {% endif %}
       </h1>
     </div>
-    <div class="f6 lh-copy fl w-100 mb4">
+    <div class="f6 lh-copy fl w-100">
       <div class="fl-ns w-50-m w-20-l pr3-m pr5-l">
         <p>
           {{page.info1}}
         </p>
       </div>
+      {% if page.info2 %}
       <div class="fl-ns w-50-m w-20-l pr3-m pr5-l">
         <p>
           {{page.info2}}
         </p>
       </div>
+      {% endif %}
+      {% if page.info3 %}
       <div class="fl-ns w-50-m w-20-l pr3-m pr5-l">
         <p>
           {{page.info3}}
         </p>
       </div>
+      {% endif %}
       <div class="fl-ns w-50-m w-20-l pr3-m pr5-l">
         <p>
           {{page.info4}}
