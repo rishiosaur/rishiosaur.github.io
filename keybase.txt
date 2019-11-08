@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/heyrishi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rishi.js.org
+  * I am heyrishi (https://keybase.io/heyrishi) on keybase.
+  * I have a public key ASAqWwt4wv9VJeu4m_WqtIU2zdEm0kgM4Wyo-RnxBf6AFAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01202a5b0b78c2ff5525ebb89bf5aab48536cdd126d2480ce16ca8f919f105fe80140a",
+      "host": "keybase.io",
+      "kid": "01202a5b0b78c2ff5525ebb89bf5aab48536cdd126d2480ce16ca8f919f105fe80140a",
+      "uid": "13ca8816c73befece6b7f501316d5519",
+      "username": "heyrishi"
+    },
+    "merkle_root": {
+      "ctime": 1573256313,
+      "hash": "abb441e1d7089ad3e251fcd922986d6f6af74632eca16b9e597ae4cd76f383f724eac207d8d6dd60c87fe0862745a91e55382c570eb61c47caea2f97e970d06e",
+      "hash_meta": "ad2a1290ca0e29afa287e5a2cf1b25841306a4adbe275397d27efebd7037c025",
+      "seqno": 8979714
+    },
+    "service": {
+      "entropy": "q5MQ+WnXhwGjAIA6mvwTZf6Q",
+      "hostname": "rishi.js.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.7.2"
+  },
+  "ctime": 1573256320,
+  "expire_in": 504576000,
+  "prev": "92942b31ace8d9ef67983149d7881353e89cb81377b4464262882d1af4a0eebd",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgKlsLeML/VSXruJv1qrSFNs3RJtJIDOFsqPkZ8QX+gBQKp3BheWxvYWTESpcCCMQgkpQrMazo2e9nmDFJ14gTU+icuBN3tEZCYogtGvSg7r3EINbtQSjev90R5SUlmjF4dfxtnkcEM/falh/b5JK1t2RYAgHCo3NpZ8RAvOM2AqxEYbNBHBVJSxJUFhjQG8rBuxOV4/FmZlvQFVFvZuyiXZY734ksCrxKuO8a/8oLI6kHhzsl39znIsI3A6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDgJZDmaECzJBwY3NiLos6lcMnfG1nGbkVXPqB4LvQBjo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/heyrishi
+
+==================================================================

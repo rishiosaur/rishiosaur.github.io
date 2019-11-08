@@ -3,9 +3,9 @@ layout: default
 title: Rishi Kothari, Developer
 ---
 
-## Hey there!
+## Hey there! 👋🌊
 {: data-aos="zoom-in"}
-I'm Rishi Kothari, a 13 year old developer and student living and working out of Toronto, Canada.
+I'm <span class="bg-light-yellow">Rishi Kothari</span>, a 13 year old developer and student living and working out of Toronto, Canada.
 {: data-aos="fade-left"}
 
 <div data-aos="fade-right" class="aos-init halftone">
@@ -14,32 +14,22 @@ I'm Rishi Kothari, a 13 year old developer and student living and working out of
 
 ### A bit about me.
 {: data-aos="zoom-in" }
-There really isn't too much to learn about me. I live with my parents, am studying in the IB Program at Turner Fenton Secondary, and love programming.
+There really isn't too much to learn about me. I live with my parents, am studying in the IB Program at Turner Fenton Secondary, and love CS and math.
 {: data-aos="fade-left"}
 
-I'm open for internships right now, wherever in the world you may be.
-{: data-aos="fade-left"}
 
-{::comment}
-### Contact?
-You can visit my contact page [here](/contact).
+{% if page.internships %}
+I'm <span class="bg-light-green">open for internships right now</span>, wherever in the world you may be.
+{% endif %}
 
-### FAQ
-If you have any trivial questions, have them answered here!
-
-#### You're pretty young. Why are you programming?
-*TL;DR:* Because it's fun.
-
-I got into programming when I was around 8, and I fell in love with it. Solving problems has always been a **strength** of mine, 
-{:/comment}
 
 ## Some things I've done...
 <section class="cf w-100 pa2-ns">
   {% for project in site.projects %}
   {% if project.coming %}
-  <article class="fr w-100 w-50-m  w-50-ns pa2-ns " data-aos="zoom-in">
+  <article class=" fr w-100 w-50-m  w-50-ns pa2-ns " data-aos="zoom-in">
   {% else %}
-  <article class="fr w-100 w-50-m  w-50-ns pa2-ns pointer" data-aos="zoom-in">
+  <article class=" fr w-100 w-50-m  w-50-ns pa2-ns pointer" data-aos="zoom-in">
   {% endif %}
   {% unless project.coming %}
   <a href="{{ project.url }}" class="ph2 ph0-ns pb3 link db dim">
@@ -51,13 +41,13 @@ I got into programming when I was around 8, and I fell in love with it. Solving 
         class="db bg-center cover aspect-ratio--object" />
       </div>
     {% else %}
-    <div class="aspect-ratio aspect-ratio--1x1" style="opacity: .25;">
+    <div class="aspect-ratio aspect-ratio--1x1 " style="opacity: .25;">
         <img style="background-color: white" 
         class="db bg-center cover aspect-ratio--object" />
       </div>
     {% endif %}
     {% else %}
-    <div class="aspect-ratio aspect-ratio--1x1 grow" >
+    <div class=" aspect-ratio aspect-ratio--1x1 grow" >
       <img style="background-image:url({{project.logo}});" 
       class="db bg-center cover aspect-ratio--object" />
     </div>
@@ -95,7 +85,7 @@ I got into programming when I was around 8, and I fell in love with it. Solving 
     </dl>
     <dl class="db dib-l w-auto-l lh-title mr6-l" data-aos="fade-in">
       <dd class="f6 fw4 ml0 ">Favorite Language</dd>
-      <dd class="f2 f-subheadline-l fw6 ml0 white bg-orange">Swift</dd>
+      <dd class="f2 f-subheadline-l fw6 ml0 white bg-orange">Rust</dd>
     </dl>
     <a class="link hover-gold pointer black" href="https://schools.peelschools.org/sec/turnerfenton/Pages/default.aspx"><dl class="db dib-l w-auto-l lh-title mr6-l" data-aos="fade-left">
       <dd class="f6 fw4 ml0">High School</dd>

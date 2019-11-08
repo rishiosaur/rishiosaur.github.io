@@ -2,6 +2,8 @@ name: Rishi Kothari, Developer
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
+internships: true
+
 plugins:
   - jekyll-random
 
