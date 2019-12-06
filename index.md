@@ -5,7 +5,7 @@ title: Rishi Kothari, Developer
 
 ## Hey there! 👋🌊
 {: data-aos="zoom-in"}
-I'm <span class="bg-light-yellow">Rishi Kothari</span>, a 13 year old developer and student living and working out of Toronto, Canada.
+I'm <span class="bg-light-yellow">Rishi Kothari</span>, a 14 year old developer and student living and working out of Toronto, Canada.
 {: data-aos="fade-left"}
 
 <div data-aos="fade-right" class="aos-init halftone">
@@ -79,7 +79,7 @@ I'm <span class="bg-light-green">open for internships right now</span>, wherever
   <div class="cf">
     <dl class="db dib-l w-auto-l lh-title mr6-l" data-aos="fade-up">
       <dd class="f6 fw4 ml0">Programming for</dd>
-      <dd class="f2 f-subheadline-l fw6 ml0">~5 <span class="bg-blue white">years</span></dd>
+      <dd class="f2 f-subheadline-l fw6 ml0">~6 <span class="bg-blue white">years</span></dd>
     </dl>
     <dl class="db dib-l w-auto-l lh-title mr6-l" data-aos="zoom-in">
       <dd class="f6 fw4 ml0">Location</dd>
