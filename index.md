@@ -89,7 +89,7 @@ I'm <span class="bg-light-green">open for internships right now</span>, wherever
       <dd class="f6 fw4 ml0 ">Favorite Language</dd>
       <dd class="f2 f-subheadline-l fw6 ml0 white bg-orange">Rust</dd>
     </dl>
-    <a class="link hover-gold pointer black" href="https://schools.peelschools.org/sec/turnerfenton/Pages/default.aspx"><dl class="db dib-l w-auto-l lh-title mr6-l" data-aos="fade-left">
+    <a class="link hover-gold pointer black" href="http://turnerfenton.com/"><dl class="db dib-l w-auto-l lh-title mr6-l" data-aos="fade-left">
       <dd class="f6 fw4 ml0">High School</dd>
       <dd class="f2 f-subheadline-l fw6 ml0 hover-gold">TFSS</dd>
     </dl></a>
