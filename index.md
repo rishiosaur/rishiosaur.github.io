@@ -3,14 +3,24 @@ layout: default
 title: Rishi Kothari, Developer
 ---
 
-<h1 class="3dtransform">Hey there!</h1>
-
-I'm <span class="bg-light-yellow">Rishi Kothari</span>, a 14 year old developer and student living and working out of Toronto, Canada.
-{: data-aos="fade-left"}
-
-<div data-aos="fade-right" class="aos-init halftone">
-<img src="/assets/attachments1/44606624_2484325718260664_2498399909355454464_o.jpg" alt="Me at HtN" title="Me @ HtN"  class="halftone">
+<div class="popout">
+	<span>H</span><span>e</span><span>y</span><span> t</span><span>h</span><span>e</span><span>r</span><span>e</span><span>!</span><br>
+	<span>👋</span>
+	<span>🌊</span>
+	
 </div>
+<div class="dt mw6 center pv2 pv3-m pv4-ns">
+  <div class="dtc v-top">
+    <img src="/assets/attachments1/44606624_2484325718260664_2498399909355454464_o.jpg" alt="Me at Hack the North 2018" class="mw5 db" />
+  </div>
+  <div class="dtc v-top pl3">
+    <p class="lh-copy mv0">
+      I'm <span class="bg-light-yellow">Rishi Kothari</span>, a 14 year old developer and student living and working out of Toronto, Canada.
+    </p>
+  </div>
+</div>
+
+
 
 ### A bit about me.
 

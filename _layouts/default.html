@@ -10,140 +10,6 @@
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
-		.full-width {
-			margin-left: calc(-100vw / 2 + 500px / 2);
-			margin-right: calc(-100vw / 2 + 500px / 2);
-		}
-
-		#footer {
-			position: absolute;
-			bottom: 0;
-			width: 100%;
-			height: 2.5rem;
-			/* Footer height */
-		}
-		.measure-wide{
-			max-width: 34em; 
-		}
-		.offset {
-  box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
-}
-.offset:hover, .offset:focus {
-  box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
-}
-.border-up {
-      background:
-        linear-gradient(to bottom, var(--theme) 0%,
-        var(--theme) 100%);
-      background-position: 0 100%;
-      background-repeat: repeat-x;
-      background-size: 4px 4px;
-      color: #000;
-      text-decoration: none;
-      transition-timing-function: ease-in-out;
-      transition: background-size .2s;
-      
-    }
-
-    .border-up:hover {
-      background-size: 4px 50px;
-	}
-	.border-up-small {
-      background:
-        linear-gradient(to bottom, var(--theme) 0%,
-        var(--theme) 100%);
-      background-position: 0 100%;
-      background-repeat: repeat-x;
-      background-size: 2px 2px;
-      color: #000;
-      text-decoration: none;
-      transition-timing-function: ease-in-out;
-      transition: background-size .25s;
-    }
-
-    .border-up-small:hover {
-	  background-size: 4px 50px;
-	  color: #FFF
-	}
-	.border-down {
-		background: linear-gradient(to bottom, var(--theme) 0%,
-		var(--theme) 100%) repeat-x 0 105%;
-		background-size: 4px 4px;
-      text-decoration: none;
-      transition-timing-function: ease-in-out;
-      transition: background-size .2s;;
-	}
-	@-webkit-keyframes ani {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-    text-shadow: 0em 0em 0 lightblue;
-    color: black;
-  }
-  30% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-    text-shadow: 0em 0em 0 lightblue;
-    color: black;
-  }
-  70% {
-    -webkit-transform: translate3d(0.08em, -0.08em, 0);
-            transform: translate3d(0.08em, -0.08em, 0);
-    text-shadow: -0.08em 0.08em lightblue;
-    color: black;
-  }
-  100% {
-    -webkit-transform: translate3d(0.08em, -0.08em, 0);
-            transform: translate3d(0.08em, -0.08em, 0);
-    text-shadow: -0.08em 0.08em lightblue;
-    color: black;
-  }
-}
-@keyframes ani {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-    text-shadow: 0em 0em 0 lightblue;
-    color: black;
-  }
-  30% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-    text-shadow: 0em 0em 0 lightblue;
-    color: black;
-  }
-  70% {
-    -webkit-transform: translate3d(0.08em, -0.08em, 0);
-            transform: translate3d(0.08em, -0.08em, 0);
-    text-shadow: -0.08em 0.08em lightblue;
-    color: black;
-  }
-  100% {
-    -webkit-transform: translate3d(0.08em, -0.08em, 0);
-            transform: translate3d(0.08em, -0.08em, 0);
-    text-shadow: -0.08em 0.08em lightblue;
-    color: black;
-  }
-}
-.popout span {
-  position: relative;
-  display: inline-block;
-  -webkit-animation: ani 1s infinite alternate cubic-bezier(0.86, 0, 0.07, 1);
-          animation: ani 1s infinite alternate cubic-bezier(0.86, 0, 0.07, 1);
-}
-.popout span:nth-last-child(1n) {
-  -webkit-animation-delay: -0.1666666667s;
-          animation-delay: -0.1666666667s;
-}
-.popout span:nth-last-child(2n) {
-  -webkit-animation-delay: -0.3333333333s;
-          animation-delay: -0.3333333333s;
-}
-.popout span:nth-last-child(3n) {
-  -webkit-animation-delay: -0.5s;
-          animation-delay: -0.5s;
-}
-
 	</style>
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -180,10 +46,10 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script>
 	jQuery(document).ready(function(){
-   $('.3dtransform').mousemove(function(e){
+   $('.colorshiftransform').mousemove(function(e){
      var rXP = (e.pageX - this.offsetLeft-$(this).width());
      var rYP = (e.pageY - this.offsetTop-$(this).height());
-     $('.3dtransform').css('text-shadow', +rYP/10+'px '+rXP/80+'px rgba(227,6,19,.8), '+rYP/8+'px '+rXP/60+'px rgba(255,237,0,1), '+rXP/70+'px '+rYP/12+'px rgba(0,159,227,.7)');
+     $('.colorshiftransform').css('text-shadow', +rYP/10+'px '+rXP/80+'px #5F9FB9, '+rYP/8+'px '+rXP/10+'px #FDDB3D, '+rXP/20+'px '+rYP/12+'px #FF6A92');
    });
 });
 </script>
