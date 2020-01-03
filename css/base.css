@@ -304,6 +304,22 @@ a.titleLink:hover {
   color: var(--color-menu-text);
 }
 
+a.smallTitleLink {
+ 
+  /* -webkit-text-fill-color: transparent;
+  text-fill-color: transparent; */
+  font-size: large;
+  transition: all 0.25s ease-in-out;
+  border-bottom: 1px var(--color-text) solid;
+}
+
+a.smallTitleLink:hover {
+  /* -webkit-text-fill-color: var(--color-menu-text);
+  text-fill-color: var(--color-menu-text); */
+  color: var(--color-bg);
+  background-color: var(--color-text); 
+}
+
 .callout {
 	border: 1px solid var(--color-text); padding: 1rem;
 }
