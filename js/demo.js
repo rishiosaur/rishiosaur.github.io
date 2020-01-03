@@ -121,6 +121,7 @@
             this.titleLettersTotal = this.DOM.titleLetters.length;
 
             this.DOM.backCtrl = this.DOM.el.querySelector('.item__content-back');
+            
             this.initEvents()
         }
         initEvents() {

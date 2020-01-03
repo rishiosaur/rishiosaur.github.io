@@ -269,14 +269,39 @@ a {
   color: var(--color-link);
 }
 
-a.link {
-	background-color: var(--color-text);
-	color: var(--color-bg);
-}
 
 .highlight {
   background-color: var(--color-text);
 	color: var(--color-bg);
+}
+
+a.link {
+  background-image: linear-gradient(120deg, var(--color-text) 0%, var(--color-text) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.1em;
+  background-position: 0 88%;
+  transition: background-size 2s ease-in-out;
+  transition: color 0.25s ease-in-out;
+}
+a.link:hover {
+  background-size: 100% 88%;
+  color: var(--color-bg);
+}
+
+a.titleLink {
+  -webkit-text-stroke: 2px var(--color-menu-text);
+  text-stroke: 2px var(--color-menu-text);
+  /* -webkit-text-fill-color: transparent;
+  text-fill-color: transparent; */
+  color: transparent;
+  transition: color 0.25s ease-in-out;
+  /* transition: text-fill-color 2s ease-in-out; */
+}
+
+a.titleLink:hover {
+  /* -webkit-text-fill-color: var(--color-menu-text);
+  text-fill-color: var(--color-menu-text); */
+  color: var(--color-menu-text);
 }
 
 .callout {
@@ -409,14 +434,15 @@ a:focus {
   padding-bottom: 1rem;
   -webkit-text-stroke: 2px var(--color-menu-text);
   text-stroke: 2px var(--color-menu-text);
-  -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent;
+  text-fill-color: transparent; */
   color: transparent;
+  transition: color 0.15s ease-in-out;
 }
 
 .menu__item:hover {
-  -webkit-text-fill-color: var(--color-menu-text);
-  text-fill-color: var(--color-menu-text);
+  /* -webkit-text-fill-color: var(--color-menu-text);
+  text-fill-color: var(--color-menu-text); */
   color: var(--color-menu-text);
 }
 
@@ -466,7 +492,7 @@ a:focus {
 }
 
 .item__content-subtitle {
-  font-weight: normal;
+  font-weight: 300;
   margin: 0;
   font-size: 1.5rem;
 }
